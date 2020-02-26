@@ -1,28 +1,82 @@
 header, nav, main, footer
 { 
-    display: block;   width: 1078px; 
+    display: block;   
+    width: 1078px; 
 }
 
 body 
 {
-    color: hotpink;background-color:forestgreen;
-    
+    color: hotpink;
+    background-color:forestgreen;
+    margin:0px;
+    text-align: center;
 }
 
 nav
 {
-    color: aqua;background-color: blueviolet;
+    color: aqua;
+    background-color: blueviolet;
     height: 100px;
 }
 
 main
 {
-    color:dodgerblue;background-color: black;
+    color:dodgerblue;
+    background-color: black;
     height:auto;
+    overflow:hidden; 
 }
 
 footer
 {
-    color:burlywood;background-color: aqua;
+    color:burlywood;
+    background-color: aqua;
     height: 100px;
+    float: left;
+    clear:both;
+}
+
+#col-left 
+{  
+    background-color:#006acc;  
+    width: 200px;
+    height: 200px; 
+    float:left;
+} 
+#col-center 
+{ 
+    background-color: aquamarine;
+    height: auto;  
+    width: auto;
+}
+
+#container
+{
+    position:relative;
+    margin:auto;
+    width: 1078px;
+    height: auto;
+    overflow: hidden;
+    border: 5px solid #ffffff;
+}
+
+#Logo
+{
+    position: absolute;
+    widows: 200px;
+    height: 40px;
+    border: 2px dotted #239483;
+    position: absolute;
+    top:10px;
+    left:10px;
+}
+
+#Logo img 
+{
+    max-height: 90px;
+}
+
+#header
+{
+    position: relative;
 }

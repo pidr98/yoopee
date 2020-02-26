@@ -1,0 +1,28 @@
+header, nav, main, footer
+{ 
+    display: block;   width: 1078px; 
+}
+
+body 
+{
+    color: hotpink;background-color:forestgreen;
+    
+}
+
+nav
+{
+    color: aqua;background-color: blueviolet;
+    height: 100px;
+}
+
+main
+{
+    color:dodgerblue;background-color: black;
+    height:auto;
+}
+
+footer
+{
+    color:burlywood;background-color: aqua;
+    height: 100px;
+}

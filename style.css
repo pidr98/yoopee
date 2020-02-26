@@ -45,7 +45,7 @@ footer
 } 
 #col-center 
 { 
-    background-color: aquamarine;
+    background-color: black;
     height: auto;  
     width: auto;
 }
@@ -57,26 +57,53 @@ footer
     width: 1078px;
     height: auto;
     overflow: hidden;
-    border: 5px solid #ffffff;
+    border:1px solid #ffffff;
 }
 
-#Logo
+#logo
 {
     position: absolute;
     widows: 200px;
-    height: 40px;
-    border: 2px dotted #239483;
-    position: absolute;
+    height: auto;
+    width: auto;
+    border: 2px dotted #731980;
     top:10px;
     left:10px;
 }
 
-#Logo img 
-{
-    max-height: 90px;
+#logo img 
+{  
+    max-height:80px;
 }
 
 #header
 {
     position: relative;
+}
+
+#table,tr,th
+{
+    border: 1px solid black;
+}
+
+table
+{
+  border-collapse: collapse;
+  width: 500px;
+}
+
+th 
+{
+  height: 27px;
+}
+
+
+tr:nth-child(2n+3)
+{
+    background-color: brown;
+}
+
+tr:nth-child(2n+4)
+{
+    background-color: gainsboro;
 }
